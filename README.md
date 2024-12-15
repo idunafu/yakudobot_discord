@@ -1,2 +1,2 @@
 # yakudobot_discord
- yakudobot_discord
+ porting to discord
