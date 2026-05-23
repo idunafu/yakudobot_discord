@@ -1,0 +1,16 @@
+[package]
+name = "yakudobot_discord"
+version = "0.2.0"
+edition = "2021"
+authors = ["idunafu"]
+description = "yakudobot for discord"
+license = "MIT"
+
+[dependencies]
+anyhow = "1"
+opencv = { version = "0.98", default-features = false, features = ["imgcodecs", "imgproc"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"] }
+serenity = { version = "0.12", default-features = false, features = ["client", "gateway", "rustls_backend", "model", "cache"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }

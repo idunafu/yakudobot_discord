@@ -69,3 +69,6 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,nim,visualstudiocode
 *.exe
 /testimg/*
+
+### Rust ###
+/target/
